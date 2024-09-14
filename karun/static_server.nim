@@ -1,8 +1,8 @@
 import
-  std/[net, os, strutils, uri, mimetypes, asyncnet, asyncdispatch, md5,
+  std/[net, os, strutils, uri, mimetypes, asyncnet, asyncdispatch,
   logging, httpcore, asyncfile, asynchttpserver, tables, times]
 
-import ws, dotenv
+import ws, dotenv, checksums/md5
 
 var logger = newConsoleLogger()
 addHandler(logger)

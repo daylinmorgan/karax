@@ -1,6 +1,7 @@
 nimcache/
 /tests/tester
 karax/tools/karun
+karun/karun
 *.code-workspace
 *.exe
 app.js
